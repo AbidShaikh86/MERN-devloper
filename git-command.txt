@@ -1,0 +1,17 @@
+>>For Setting Git
+    git config --global user.name ""
+    git config --global user.email ""
+
+>>mandatory Commands:
+    git init
+    git remote add origin link_of_Repository
+
+>>For pulling file Request
+    git pull origin file name_from_repository
+    git status
+
+>>for pushing file to github repository 
+    git add . (to add all file form project)
+    git status
+    git commit -m "commit message"
+    git push
