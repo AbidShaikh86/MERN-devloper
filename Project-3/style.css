@@ -9,12 +9,12 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #343a40;
+    background-color: #b8b8b8;
     border-radius: 5px;
 }
 #greet{
     font-size: 3rem;
-    color: aliceblue;
+    color: rgb(41, 41, 41);
 }
 main{
     height: 80dvh;
@@ -41,26 +41,11 @@ main{
     border-radius: 20px;
     border: 2px solid #525252;
 }
-#red{
-    background-color: #ad2831;
-}
-#yellow{
-    background-color: #FFEA00;
-    color: #525252;
-}
-#green{
-    background-color: #132A13;
-    color: #ECF39E;
-}
-#blue{
-    background-color: #03045E;
-    color: #CAF0F8;
-}
+
 .intext{
     padding: 20px 30px;
     font-size: 1rem;
     font-family: cursive;
-    background-color: #e9ecef;
     transition: .2s ease;
 }
 .intext:hover{
@@ -80,13 +65,9 @@ main{
     padding: 20px 30px;
     font-family: cursive;
     font-size: 1rem;
-    background-color: #6c757d;
-    color: #f8f9fa;
     transition: 0.2s ease;
 }
 .btn:hover{
-    background-color: #495057;
     border: 2px solid #212529;
     border-radius: 5px;
-    color: #dee2e6;
 }
